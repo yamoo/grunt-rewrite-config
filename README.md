@@ -25,8 +25,10 @@ In your project's Gruntfile, add a section named `rewrite_config` to the data ob
 ```js
 grunt.initConfig({
   rewrite_config: {
-    options: {
-      // Task-specific options go here.
+    default: {
+      options: {
+        // Task-specific options go here.
+      }
     }
   },
 });
@@ -45,9 +47,11 @@ A function that rewrite grunt config.
 ```js
 grunt.initConfig({
   rewrite_config: {
-    options: {
-      rewrite: function(config) {
-        config.foo = {};
+    default: {
+      options: {
+        rewrite: function(config) {
+          config.foo = {};
+        }
       }
     }
   }
