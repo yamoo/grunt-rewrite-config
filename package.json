@@ -1,7 +1,7 @@
 {
   "name": "grunt-rewrite-config",
   "description": "Rewrite grunt config.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/yamoo/grunt-rewrite-config",
   "author": {
     "name": "Marty"
