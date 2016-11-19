@@ -22,7 +22,7 @@ var grunt = require('grunt');
     test.ifError(value)
 */
 
-exports.rewrite_config = {
+exports.rewriteConfig = {
   setUp: function(done) {
     // setup here if necessary
     done();

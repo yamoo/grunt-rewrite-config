@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    rewrite_config: {
+    rewriteConfig: {
       default: {
         options: {
           rewrite: function(config) {
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'rewrite_config', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'rewriteConfig', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

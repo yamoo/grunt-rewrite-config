@@ -17,14 +17,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-rewrite-config');
 ```
 
-## The "rewrite_config" task
+## The "rewriteConfig" task
 
 ### Overview
-In your project's Gruntfile, add a section named `rewrite_config` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `rewriteConfig` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  rewrite_config: {
+  rewriteConfig: {
     default: {
       options: {
         // Task-specific options go here.
@@ -46,7 +46,7 @@ A function that rewrite grunt config.
 
 ```js
 grunt.initConfig({
-  rewrite_config: {
+  rewriteConfig: {
     default: {
       options: {
         rewrite: function(config) {
